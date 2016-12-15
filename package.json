@@ -1,0 +1,25 @@
+{
+  "name": "select",
+  "version": "1.0.0",
+  "description": "Object transformer: picks only selected properties from the given object",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.machobear.ca:platform/select.git"
+  },
+  "keywords": [
+    "object",
+    "transformer",
+    "select",
+    "pluck"
+  ],
+  "author": "Machobear Studios",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "curry": "^1.2.0",
+    "poly-filter": "^1.0.1"
+  }
+}
