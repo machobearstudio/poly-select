@@ -1,8 +1,12 @@
-var curry = require('curry')
-var filter = require('poly-filter')
+var curry = require('curry');
+var filter = require('poly-filter');
 
-function select(includeKeys, object) {
-  return filter((value, key) => includeKeys.indexOf(key) >= 0, object)
+function select(keys, object) {
+  const includeKeys = (keys instanceof Array) ? keys : [keys];
+
+  return filter(function (value, key) {
+    return includeKeys.indexOf(key) >= 0
+  }, object);
 }
 
-module.exports = curry(select)
+module.exports = curry(select);

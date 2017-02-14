@@ -1,14 +1,14 @@
 {
   "name": "select",
   "version": "1.0.0",
-  "description": "Object transformer: picks only selected properties from the given object",
+  "description": "Pick selected properties from the given object or array",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.machobear.ca:platform/select.git"
+    "url": "git@github.com:machobearstudio/poly-select.git"
   },
   "keywords": [
     "object",
@@ -16,10 +16,13 @@
     "select",
     "pluck"
   ],
-  "author": "Machobear Studios",
-  "license": "SEE LICENSE IN LICENSE",
+  "author": "Machobear Studio Inc.",
+  "license": "Apache-2.0",
   "dependencies": {
     "curry": "^1.2.0",
     "poly-filter": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0"
   }
 }
