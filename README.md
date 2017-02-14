@@ -2,8 +2,8 @@
 Picks given keys and associated values from an object or array
 
 ## Motivation
-When workingon data transformation pipelines, it is often needed to be able
-to filter out unused data leaving only a fiew pieces for downstream processing.
+When working data transformation pipelines, it is often needed to be able
+to filter out unused data leaving only a few pieces for downstream processing.
 
 This tool is effectively a shorthand version of:
 ```
