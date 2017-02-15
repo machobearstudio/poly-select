@@ -1,5 +1,5 @@
 {
-  "name": "select",
+  "name": "poly-select",
   "version": "1.0.0",
   "description": "Pick selected properties from the given object or array",
   "main": "index.js",
